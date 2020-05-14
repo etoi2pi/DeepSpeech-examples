@@ -55,7 +55,7 @@ Resolve directory path for the models and fetch each of them.
 @param dirName: Path to the directory containing pre-trained models
 
 @Retval:
-Retunns a tuple containing each of the model files (pb, scorer)
+Returns a tuple containing each of the model files (pb, scorer)
 '''
 def resolve_models(dirName):
     pb = glob.glob(dirName + "/*.pbmm")[0]
